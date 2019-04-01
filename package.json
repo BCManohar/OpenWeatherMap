@@ -1,0 +1,13 @@
+{
+  "name": "OpenWeatherMap",
+  "description": "Open weather map tests",
+  "scripts": {
+    "test": "mocha --recursive src/funtional-tests/ --reporter mochawesome"
+  },
+  "dependencies": {
+    "selenium-webdriver": "^3.0.1",
+    "mocha": "^2.5.1",
+    "mochawesome": "3.1.1"
+  },
+  "author": "Manohar BC"
+}
