@@ -1,6 +1,6 @@
 /*
 Launch https://openweathermap.org/
-Verify signin, signup and Navigator menus are displaying.
+Labels verification.
 */
 var webdriver = require('selenium-webdriver'),
     By = webdriver.By,
@@ -13,9 +13,7 @@ var driver = new webdriver.Builder()
 const test = require("selenium-webdriver/testing");
 const assert = require("selenium-webdriver/testing/assert");
 
-const { expectedData } = require("./expected-data/openWeatherExpectedData");
-
-test.describe("OpenWeather-FunctionalTest1", function () { // eslint-disable-line func-names
+test.describe("OpenWeather-Label-Verifications-e2e-test1", function () { // eslint-disable-line func-names
     after(() => driver.quit()); // eslint-disable-line no-undef
     this.timeout(100000); // Suite-level timeout
 

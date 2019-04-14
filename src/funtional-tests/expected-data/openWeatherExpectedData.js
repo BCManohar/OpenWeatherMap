@@ -6,12 +6,17 @@ const expectedData = {
     },
 
     Workflow2: {
-        ErroMessage: "Not found"
+        ErroMessage: "×Not found"
     },
 
     Workflow3: {
         CityName: "Bangalore"
     },
+
+    signUp: {
+        CreateNewAccountLabel: "Create New Account",
+        CaptchaErrorMesssage: "reCAPTCHA verification failed, please try again."
+    }
     
 };
 
